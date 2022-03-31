@@ -1,0 +1,13 @@
+dn: uid=testuser,dc=registry,dc=local
+uid: testuser
+cn: User
+sn: Test
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+loginShell: /bin/bash
+homeDirectory: /home/testuser
+uidNumber: 2000
+gidNumber: 2000
+mail: testuser@example.com
+gecos: "Test user"
